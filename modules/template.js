@@ -6,17 +6,33 @@ precompiler.addModule( function(){
 // PUBLIC METHODS INSIDE RETURN STATEMENT
 return {
 
-	getTitle   : function() { return "template"; },
-	getVersion : function() { return "v0.2"; },
-	getAuthor  : function() { return "Patrick Charles-Lundaahl"; },
-	getDesc    : function() { return "n/a"; },
-	getDomain  : function() { return "http://www.yourwebsite.com"; },
-	run        : function(code) {
-	if (typeof code === 'string'){
+    // BASIC GETTERS
+    getTitle   : function() { return "template"; },
+    getVersion : function() { return "v0.2"; },
+    getAuthor  : function() { return "Patrick Charles-Lundaahl"; },
+    getDesc    : function() { return "n/a"; },
+    getDomain  : function() { return "http://www.yourwebsite.com"; },
 
-	}
-	return code;
-}
+    // GET LESS INFO
+    // Returns a string containing minimal info about the module.
+    getLess    : function() {
+        return this.getTitle() + " " + this.getVersion();
+    },
+
+    // GET MORE INFO
+    // Returns a string with all contained info about the module.
+    getMore    : function() {
+        return this.getTitle() + " " + this.getVersion() + "\n"
+             + "by " + this.getAuthor() + "\n"
+             + this.getDesc() + "\n" + this.getDomain();
+    },
+
+    // RUN
+    // This is where your precompiler script should go.
+    run : function(code) {
+    if (typeof code === 'string'){
+
+    } return code; }
 
 // END OF OBJECT
 }}());
