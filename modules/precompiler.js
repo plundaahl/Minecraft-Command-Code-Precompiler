@@ -31,11 +31,12 @@ var precompiler = function (){
         // DEBUG TOOL.
         // Returns a string containing details about all active modules.
         listModules : function () {
-            var result = "Active Modules: " + modules.length + "\n\n";
+            var result = "MINECRAFT COMMAND PRECOMPILER\n"
+                       + "Modules loaded: " + modules.length + "\n";
 
             // Loop through modules and add info about each to the output.
             for (i = 0; i < modules.length; i++){
-                result += "   " + modules[i].getLess();
+                result += "   " + modules[i].getLess() + "\n";
             }
 
             return result;
@@ -43,27 +44,36 @@ var precompiler = function (){
 
         // RUN PRECOMPILER
         run : function (code) {
-            var compiled = "";
+            var errors = 0;
+            var compiled = code;
+
+            writeln("Precompile Started.")
 
             // Loop through all active modules and attempt to run each.
             for (i = 0; i < modules.length; i++){
                 try {
-                    var pass = modules[i].run(code);
+                    var pass = modules[i].run(compiled);
 
                     if (typeof pass === 'string') {
-                        compiled = modules[i].run(code);
+                        compiled = pass;
+                        write("   ");
+                        writeln(modules[i].getLess() + " ran successfully.");
                     } else {
-                        var message = modules[i].getTitle() + " "
-                                    + modules[i].getVersion()
-                                    + " returned invalid type. Skipping";
-                        throw message;
+                        throw modules[i].getLess()
+                              + " returned invalid type. Skipping";
                     }
 
                 } catch (err) {
+                    errors++;
+                    write("   ");
                     writeln("ERROR: " + err);
                 }
             }
 
+            // PRECOMPILE SUMMARY MESSAGE
+            writeln("Precompile Finished.");
+            writeln(errors + " errors.")
+            writeln();
             return compiled;
         }
     };
