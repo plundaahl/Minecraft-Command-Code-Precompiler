@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 70em;
+    margin: auto;
+}
+
+.code_container {
+    width: 100%;
+    margin: 0;
+}
+
+#input_area {
+    height: 5em;
+}
+
+#output_area {
+    height: 25em;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    margin: 0;
+}
+
+button#split {
+    width: 100%;
+    margin: 0 0;
+    padding: 0.2em;
+    font-size: 1em;
+}
