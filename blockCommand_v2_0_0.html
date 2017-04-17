@@ -2,20 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="dev/debug_tools.js"></script>
+	<script src="modules/base.js"></script>
+
+	<!-- PLEASE ADD MODULES HERE -->
+	<script src="modules/template.js"></script>
+
 </head>
 <body>
 
 <main>
-	<h1>Minecraft Command Iterator v1.3.1</h1>
+	<h1>Minecraft Command Block Precompiler v2.0</h1>
 
 	<div class="code_container" id="input_area">
-		<textarea id="splitMe" placeholder="/effect @e[tag=my|lines|split|like|this] hey, it works!"></textarea><br>
+		<textarea id="input" placeholder="/effect @e[tag=my|lines|split|like|this] hey, it works!"></textarea><br>
 	</div>
-	<button id="split" onclick="doSplit()">Split</button>
+	<button id="precompile" onclick="precompile()">Precompile</button>
 	<div class="code_container" id="output_area">
 		<textarea id="output"></textarea>
 	</div>
+	<div class="code_container" id="console_area">
+		<textarea id="console"></textarea>
+	</div>
+
+	<script>
+	writeln(precompiler.listModules());
+	</script>
 </main>
 
 </body>

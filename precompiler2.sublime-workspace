@@ -1,0 +1,572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"borde",
+				"border-spacing"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"scoreboard",
+				"scoreboard players"
+			],
+			[
+				"list-stye",
+				"list-style-image"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"justify",
+				"justify-all"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"b",
+				"border"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "BASIC STRUCTURE\n***************\n\nRANDOMIZER (should pick a random sequence)\n- Use /scoreboard @r. Means that move need the move selection objective to be part of their target.\n\nSEQUENCE\n- A progressively updating score.\n\n\n\n\n\nTARGET SELECTOR\n- Monster Identifier\n- Move Selection Objective\n- Move Sequencer Objective\n\n\n\nTo make life easier...\n**********************\n- Have a \"step\" command. SOME sort of variable that increases each time; something to denote how long a particular portion of a move sequence is.\n\n\n$step=1+3:5",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Unix",
+				"name": "BASIC STRUCTURE"
+			}
+		},
+		{
+			"file": "/Users/pclundaahl/Documents/My Docs/mcc/Precompiler/Command Iterator.html",
+			"settings":
+			{
+				"buffer_size": 6103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/pclundaahl/Documents/My Docs/mcc/Precompiler/blockCommand_v2_0_0.html",
+			"settings":
+			{
+				"buffer_size": 569,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "* {\n    box-sizing: border-box;\n}\nmain {\n    width: 70em;\n    margin: auto;\n}\n\n.code_container {\n    width: 100%;\n    margin: 0;\n}\n\n#input_area {\n    height: 5em;\n}\n\n#output_area {\n    height: 25em;\n}\n\ntextarea {\n    width: 100%;\n    height: 100%;\n    resize: none;\n    margin: 0;\n}\n\nbutton#split {\n    width: 100%;\n    margin: 0 0;\n    padding: 0.2em;\n    font-size: 1em;\n}",
+			"file": "/Users/pclundaahl/Documents/My Docs/mcc/Precompiler/style.css",
+			"file_size": 374,
+			"file_write_time": 131368667080000000,
+			"settings":
+			{
+				"buffer_size": 374,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "package control install package",
+		"selected_items":
+		[
+			[
+				"package control install package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/pclundaahl/Documents/My Docs/mcc/Precompiler2"
+	],
+	"file_history":
+	[
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/Research/JavaScript/BOM Browser Object Model/document-scripts.html",
+		"/Users/pclundaahl/Documents/My Docs/Courses/Finals Study Guide/Business.txt",
+		"/Users/pclundaahl/Documents/My Docs/Courses/Finals Study Guide/Comm.txt",
+		"/Users/pclundaahl/Documents/My Docs/Courses/Finals Study Guide/Math.txt",
+		"/Users/pclundaahl/Documents/My Docs/Courses/Finals Study Guide/Java.txt",
+		"/Users/pclundaahl/Documents/My Docs/Courses/Finals Study Guide/Web.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/base.css",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/Sample.txt",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/1 Sample Warped.txt",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/Sample Select Mapped.txt",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/untitled.gz",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/untitled.gz.cpgz",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/untitled 2.gz",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/Sampler Experiments/Sample Select Mapped - edit1.txt",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/Research/JavaScript/onload.html",
+		"/Users/pclundaahl/Documents/My Docs/Courses/BUSA/Financial Meltdown/Notes.txt",
+		"/Users/pclundaahl/Documents/My Docs/Courses/BUSA/Financial Meltdown/Writeup Draft.txt",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/128s/WA drum tools Kicks",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/128s/test.xml",
+		"/Users/pclundaahl/Music/Ableton/User Library/Samples/128s/WA drum tools Kicks.adg",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/forum.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/forum.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/view_topic.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/view_topic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab09/hello-world.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/about.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/essentials/selection.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/essentials/quality-of-life.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/layout/desktop-access.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/layout/window-switching.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/layout/screen-layout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/layout/virtual-desktops.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/accessibility/zoom.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/accessibility/narrator.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/accessibility/language-select.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/essentials/editing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/lessons.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/index.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/post.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/php_include/site_header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/php_include/lessons_nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/lessons-main.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/essentials/focus-and-movement.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/account.php",
+		"/Users/pclundaahl/Documents/My Docs/Courses/comp 1536/lab7/formmail/formmail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/deregister.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/account.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/php_include/site_header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/forum.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/script/warn-functions.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/study/PHP/build_functions/warn_functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/register_form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/post.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/add_response.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/view_topic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/view_topic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/add_response.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/add_topic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/add_topic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/login_form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/catalog.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/php_include/site_footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/php_include/rel_link.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7_forum_tests/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/testing_bens_forum/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/forum/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/forum/auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/forum/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/forum/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/script/warn-functions.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/contact.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/add_topic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/account.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/add_topic.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/catalog.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/catalog.php",
+		"/Users/pclundaahl/Desktop/QPtc.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/style/about.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/script/testpage.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/parsing-html.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/g7/script/atomic-validation-functions.js",
+		"/Users/pclundaahl/Documents/Sublime Projects/g7",
+		"/Users/pclundaahl/Documents/My Docs/Courses/comp 1111/bash commands.txt",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/HTML Study/Positioning/clearfix-hack.html",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Circle Generator Basics.txt",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/circle-generator.html",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Blade Beam Attack.txt",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Sweep Attack v1.txt",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Direction System.txt",
+		"/Users/pclundaahl/Documents/My Docs/Courses/comp 1536/Sample Lab Quiz/style/base.css",
+		"/Users/pclundaahl/Documents/My Docs/Courses/comp 1536/Sample Lab Quiz/template.html",
+		"/Users/pclundaahl/Documents/My Docs/Courses/comp 1536/Sample Lab Quiz/home.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/Chapter Topics/chap14/form-val-test.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/Chapter Topics/chap14/js-test.html",
+		"/Users/pclundaahl/Documents/My Docs/Courses/BUSA/Enron/Writeup Draft 1",
+		"/Users/pclundaahl/Documents/My Docs/Courses/BUSA/Enron/Notes.txt",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/HTML Study/Positioning/vertical-positioning.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/README.md",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Dash Attack.txt",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Random Dungeon Gen/code snippets.txt",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Rock Toss.txt",
+		"/Users/pclundaahl/Documents/My Docs/mcc/Abilities/Push.txt",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/MAMP htdocs/study/first-steps/header.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/MAMP htdocs/study/first-steps/includer.php",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/account.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/script/warn-functions.js",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/script/atomic-validation-functions.js",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/Error Checking & Testing/testpage.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/script/testpage.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/Basic User Stuff/date.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/Basic User Stuff/functions-as-objects.html",
+		"/Users/pclundaahl/Documents/eclipseWorkspace/COMP1510-assign-2-template.zip_expanded/Charles-Lundaahl,Patrick-assign-2/readme.txt",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/style/lessons.css",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 Team Project/site/g7/lessons-template-ver-B.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/Basic User Stuff/dialog-boxes.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/demo-neda.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/Chapter Topics/chap04/image-pan-fx-01.html",
+		"/Users/pclundaahl/Documents/My Docs/Web Dev Projects/1536 R&D/JavaScript Study/Order of Operations/order-of-ops_01.html",
+		"/Users/pclundaahl/Documents/My Docs/Courses/Comp 1510/Assignments/assignment 2/COMP1510-assign-2-template 2/src/readme.txt",
+		"/Users/pclundaahl/Documents/eclipseWorkspace/COMP1510-assign-2-template.zip_expanded/src/readme.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"warp",
+			"<h3>",
+			" + ",
+			"\t",
+			"button",
+			"?> -->",
+			"<!-- <?php",
+			"<?php",
+			"<table",
+			"#forum_",
+			"id=\"forum",
+			"article",
+			"March 20th",
+			"table",
+			"id=\"for",
+			"}",
+			":}",
+			":",
+			"featured-content",
+			"table",
+			"table {",
+			"table",
+			"<th",
+			"th {",
+			"nav",
+			"$(",
+			"width",
+			"th",
+			"td",
+			"tr",
+			"table",
+			"input",
+			"main",
+			"font-size",
+			"{",
+			"c=1",
+			"BladeBeam",
+			"bladeBeam",
+			"_back",
+			"_front",
+			"_main",
+			"bladeBeam_",
+			"Swipe",
+			"_timer",
+			"300",
+			"bladeBeam",
+			"doBladeBeam",
+			"bladeBeam",
+			"data:1",
+			"data:4",
+			"FallingSand",
+			"\t",
+			"checkstyle",
+			"page",
+			"\t",
+			"</small>",
+			"<small",
+			"</small>",
+			"<p><small",
+			"<option",
+			"\t",
+			"RD17_TEST",
+			"auth",
+			"table",
+			"auth",
+			"ul",
+			"@media",
+			".account_button",
+			"site_nav",
+			"copyright",
+			"site_nav",
+			"content_wrapper",
+			"_small",
+			"('images",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								524
+							]
+						],
+						"settings":
+						{
+							"auto_name": "BASIC STRUCTURE",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/pclundaahl/Documents/My Docs/mcc/Precompiler/Command Iterator.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6103,
+								5166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/pclundaahl/Documents/My Docs/mcc/Precompiler/blockCommand_v2_0_0.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/pclundaahl/Documents/My Docs/mcc/Precompiler/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								4
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "precompiler2.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
