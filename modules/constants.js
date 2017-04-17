@@ -11,7 +11,7 @@ return {
     getVersion : function() { return "v0.1"; },
     getAuthor  : function() { return "Patrick Charles-Lundaahl"; },
     getDesc    : function() { return "n/a"; },
-    getDomain  : function() { return "http://www.yourwebsite.com"; },
+    getDomain  : function() { return "https://github.com/pclundaahl/Minecraft-Command-Code-Precompiler"; },
 
     // GET LESS INFO
     // Returns a string containing minimal info about the module.
